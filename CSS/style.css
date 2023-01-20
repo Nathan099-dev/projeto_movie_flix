@@ -26,8 +26,8 @@ nav{
 }
 
 .logo h1{
-    margin-left: 1.5rem;
-    padding: 1rem;
+    margin-left: 1rem;
+    padding: 1rem .25rem;
     text-transform: uppercase;
     color: red;
 }
@@ -49,20 +49,19 @@ nav{
     text-decoration: none;
 }
 
-.user_area {
-    margin-right: 5rem;
-    padding: 1.3rem 0;
+
+i#bars{
+    color: #fff;
+    margin: 20px;
+    display: flex;
+    display: none;
+    visibility: hidden;
 }
 
-.user_area i{
-    color: white;
-    margin-left: 2rem;
-    font-size: 20px;
+i#bars .visible{
+    display: block;
+    visibility: visible;
     cursor: pointer;
-}
-
-.user_area i:hover{
-    zoom: normal;
 }
 
 section.main{
@@ -92,6 +91,7 @@ section.main{
     border: none;
     color: white;
     cursor: pointer;
+    border: 0.5px solid #fff;
 }
 
 .main-itens i{
@@ -103,4 +103,21 @@ section.main{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-style: italic;
+}
+
+@media screen and (max-width: 700px) {
+   i#bars{
+    display: block;
+    visibility: visible;
+
+   }
+
+   .menu{
+        display: none;
+   }
+   
+    .user_area i{
+        width: 100%;
+        display: none;
+    }
 }
