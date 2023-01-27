@@ -76,3 +76,59 @@ i#bars .visible{
     visibility: visible;
     cursor: pointer;
 }
+
+section#cadastro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.formulario{
+    background-color: #f0f2f5;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+
+.formulario h2{
+    color:  #f4160c;
+}
+
+.formulario label{
+    color: #f4160c;
+}
+
+.formulario input{
+    display: flex;
+    padding: 10px 8px;
+    margin: 20px 0;
+    flex-direction: column;
+    border-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #f4160c;
+    outline: none;
+}
+
+
+.formulario button{
+    display: flex;
+    justify-content: center;
+    background-color: #f4160c;
+    color: #fff;
+    padding: 5px 20px;
+    border: none;
+    align-items: center;
+    margin: 0 50px;
+    cursor: pointer;
+}
+
+.formulario button:hover{
+    background-color: #fff;
+    color: #f4160c;
+}
+
