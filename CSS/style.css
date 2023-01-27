@@ -7,6 +7,7 @@
 .container{
     margin: 0 auto;
     padding: 0 2%;
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -105,12 +106,12 @@ section.main{
     padding: 25px 30px;
     background-color: #fff;
     border: none;
-    color: #000;
+    color: #555;
     font-size: 16px;
     font-weight: medium;
     line-height: 23px;
     text-align: justify;
-    border-radius: 20px;
+    border-radius: 8px;
     cursor: pointer;
     
 }
@@ -130,14 +131,15 @@ section.main{
 
 section#diferenciais{
     width: 100%;
-    padding: 6rem 0;
-    
-   
+    padding: 5rem 0;
+    margin: 2rem 0;
+    flex-wrap: wrap;  
 }
 
 
 #diferenciais h2{
     text-align: center;
+    padding: .5rem 0;
     text-transform: uppercase;
     color: #f4160c;
     font-size: 30px;
@@ -146,8 +148,64 @@ section#diferenciais{
 }
 
 
-#diferenciais p{
+#diferenciais .cards{
+    display: flex;
+    margin: 20px;
     
+    
+}
+
+.card_single{
+    text-align: justify;
+    border-radius: 10px;
+    margin-right: 25px;
+    background-color: #ccc;
+  
+    padding: 1rem 2rem;
+}
+
+.card_single p{
+    font-size: 13px;
+    font-style: italic;
+    line-height: 25px;
+}
+
+section#sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+#sobre h2{
+    text-align: center;
+    color: #f4160c;
+
+}
+
+footer{
+    background-color: #fff;
+    background-color: #f0f2f5;
+    border: 1px solid #ccc;
+    bottom: 0;
+}
+   
+
+.botao_subir{
+    width: 100%;
+   
+}
+
+.botao_subir i{
+    float: right;
+    margin-right: 1rem;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.botao_subir i:hover{
+    color: #f4160c;
+    transition: .5s;
 }
 @media screen and (max-width: 700px) {
     .logo h1{
@@ -164,5 +222,8 @@ section#diferenciais{
         display: none;
    }
    
+   .card_single{
+        width: 100%;
+   }
     
 }
