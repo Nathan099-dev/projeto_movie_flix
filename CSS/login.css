@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #f0f2f5;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h1{
+    margin-left: 1rem;
+    padding: .75rem .25rem;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: #f4160c;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.4rem;
+    margin-right: 2.5rem;
+}
+
+.menu li{
+   margin-left: .75rem;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.menu a:hover{
+    color: #f4160c;
+    transition: .6s;
+}
+
+
+i#bars{
+    color: #000;
+    margin: 20px;
+    display: flex;
+    display: none;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+i#bars .visible{
+    display: block;
+    visibility: visible;
+    cursor: pointer;
+}
+
+section#login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.formulario_login{
+    background-color: #f0f2f5;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+
+.formulario_login h2{
+    color:  #f4160c;
+    font-family: monospace;
+    font-size: 23px;
+}
+
+.formulario_login label{
+    color: #f4160c;
+}
+
+.formulario_login input{
+    display: flex;
+    padding: 10px 8px;
+    margin: 20px 0;
+    flex-direction: column;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, .6);
+    border-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+
+.formulario_login button{
+    display: flex;
+    justify-content: center;
+    background-color: #f4160c;
+    color: #fff;
+    padding: 5px 20px;
+    border: none;
+    align-items: center;
+    margin: 0 50px;
+    box-shadow: 1px 4px 3px 1px rgba(0, 0, 0, .6);
+    cursor: pointer;
+}
+
+.formulario_login button:hover{
+    background-color: #fff;
+    color: #f4160c;
+    transition: .8s;
+}
+
