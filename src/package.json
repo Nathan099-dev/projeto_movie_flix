@@ -1,0 +1,19 @@
+{
+  "name": "projeto_movie_flix",
+  "version": "1.0.0",
+  "description": "projeto",
+  "main": "index.js",
+  "scripts": {
+      
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nathan099-dev/projeto_movie_flix.git"
+  },
+  "author": "Nathan Tonini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nathan099-dev/projeto_movie_flix/issues"
+  },
+  "homepage": "https://github.com/Nathan099-dev/projeto_movie_flix#readme"
+}
