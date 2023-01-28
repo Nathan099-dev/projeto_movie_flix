@@ -13,6 +13,7 @@
 
 body{
     overflow-x: hidden;
+    overflow-y: hidden;
     background-color: #fff;
 }
 
@@ -84,6 +85,10 @@ section#cadastro{
     padding: 2rem 0;
 }
 
+#cadastro h2{
+    margin-bottom: 10px;
+}
+
 .formulario{
     background-color: #f0f2f5;
     padding: 50px 100px;
@@ -116,22 +121,23 @@ section#cadastro{
 }
 
 
-.formulario button{
+.formulario a{
     display: flex;
+    text-decoration: none;
     justify-content: center;
-    background-color: #f4160c;
-    color: #fff;
-    padding: 5px 20px;
+    color: #f4160c;
     border: none;
+    padding: 10px 25px;
     align-items: center;
-    margin: 0 50px;
-    box-shadow: 1px 4px 3px 1px rgba(0, 0, 0, .6);
+    margin: 0 30px;
+    border: 1px solid #f4160c;
     cursor: pointer;
 }
 
-.formulario button:hover{
-    background-color: #fff;
-    color: #f4160c;
+.formulario a:hover{
+    background-color: #860903;
+    color: #fff;
     transition: .8s;
+    border: none;
 }
 
