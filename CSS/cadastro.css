@@ -121,7 +121,7 @@ section#cadastro{
 }
 
 
-.formulario a{
+.formulario button{
     display: flex;
     text-decoration: none;
     justify-content: center;
@@ -134,7 +134,7 @@ section#cadastro{
     cursor: pointer;
 }
 
-.formulario a:hover{
+.formulario button:hover{
     background-color: #860903;
     color: #fff;
     transition: .8s;
